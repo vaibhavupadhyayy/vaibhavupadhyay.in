@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vaibhav Upadhyay - Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/7b8c9bc62c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-success">
+    <div id="header">
+      <!-- navication bar  -->
+      <div class="container">
+        <nav>
+          <h3 class="PORT">Vaibhav Portfolio</h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <!-- cross icone -->
+            <i
+              class="fa-sharp fa-solid fa-square-xmark fas"
+              onclick="closemenu()"
+            ></i>
+          </ul>
+
+          <!-- menu icon  -->
+          <i class="fa-sharp fa-solid fa-bars fas" onclick="openmenu()"></i>
+        </nav>
+
+        <!-- header section  -->
+
+        <div class="header-text">
+          <h3>Full Stack Developer</h3>
+          <h1>
+            Hey I'm <span> Vaibhav Upadhyay</span><br />
+            From Jhansi
+          </h1>
+        </div>
+        <a href="#contact" class="btn">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------about page--------------------------- --- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="myphoto.jpg" alt="" height="62%" width="60%" />
+            <div class="details">
+              <h1><span>Name - </span> Er. Vaibhav Upadhyay</h1>
+
+              <h1><span>Mother - </span>Sangeeta Upadhyay</h1>
+              <h1><span>Father - </span>Mr D.S Upadhyay</h1>
+              <h1><span>Hobbies - </span>Cricket, Singing</h1>
+              <h1><span>State - </span> Uttar Pradesh</h1>
+              <h1><span>Dob - </span> 7 - 10 - 2001</h1>
+              <h1><span>Age - </span> 21 Years Old</h1>
+              <h1><span>Degree - </span> B.Tech</h1>
+
+              <h1><span>City - </span> Jhansi</h1>
+            </div>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="onto">
+              Looking forward to earning the position as a full stack developer at
+              a leading organization to showcase my skills in programming to
+              generate high-end solutions to general software issues along with
+              drawing better user experience".
+            </p>
+
+            <!-- skill desing -->
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skill
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('project')">Project</p>
+              <p class="tab-links" onclick="opentab('internship')">
+                Internship
+              </p>
+            </div>
+            <!-- your skils are added here  -->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>PROGRAMING LANGUAGE </span><br /><br />Python ||
+                  Javascript || PHP || Matlab ||
+
+                  <br />
+                </li>
+                <li>
+                  <span>FRONT END</span><br /><br />Html || CSS || Tailwind ||
+                  Bootstrap || React ||
+                </li>
+                <li>
+                  <span>BACK END</span><br /><br />
+                  Node.Js || Express || Angular || Django || Flask ||
+                </li>
+                <li>
+                  <span>OTHER TECHNOLOGY</span><br /><br />Git || Github ||
+                  Wordpress || || Redux ||
+                </li>
+                <li><span>DATABASE</span><br /><br />SQL || MongoDb ||</li>
+                <li><span>ANDROID </span><br /><br />REACT NATIVE ||</li>
+              </ul>
+            </div>
+
+            <!-- education section  add your data -->
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B.TECH, ELECTRICAL ENGINEERING</span><br /><br />SR
+                  Group of Institutions Jhansi Uttar Pradesh (2017 - 2021)
+                </li>
+                <li>
+                  <span>HIGHER SECONDARY EDUCATION</span><br />
+                  <br />G.I.C Inter College Jhansi Uttar Pradesh (2016 - 2017)
+                </li>
+                <li>
+                  <span> SECONDARY EDUCATION</span><br />
+                  <br />R.I.C Inter College Ambedkarnagar Uttar Pradesh (2014 -
+                  2015)
+                </li>
+              </ul>
+            </div>
+            <!-- project data  -->
+            <div class="tab-contents" id="project">
+              <ul>
+                <li>
+                  <span>GROCERY WEBSITE </span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/grocery
+                    -website/"
+                  >
+                    https://vaibhavupadhyayy.github.io/grocery-website/</a
+                  >
+                </li>
+                <li>
+                  <span>BOOKS WEBSITE </span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/bookstore/"
+                  >
+                    https://vaibhavupadhyayy.github.io/bookstore/</a
+                  >
+                </li>
+
+                <li>
+                  <span>COFFEE WEBSITE </span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/Coffeestore/"
+                  >
+                    https://vaibhavupadhyayy.github.io/Coffeestore/</a
+                  >
+                </li>
+
+                <li>
+                  <span>ECOMMRECE WEBSITE</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/Ecommercewebsite/"
+                  >
+                    https://vaibhavupadhyayy.github.io/Ecommercewebsite/</a
+                  >
+                </li>
+
+                <li>
+                  <span>WEATHER APPLICTION</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/weatherapp/"
+                  >
+                    https://vaibhavupadhyayy.github.io/weatherapp/</a
+                  >
+                </li>
+
+                <li>
+                  <span>AGE CALCULATOR</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/agecal/"
+                  >
+                  https://vaibhavupadhyayy.github.io/agecal/</a
+                  >
+                </li>
+
+                <li>
+                  <span>CV SCREENER</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/cvscreener/"
+                    >https://vaibhavupadhyayy.github.io/cvscreener/</a
+                  >
+                </li>
+                <li>
+                  <span>TOUR TRAVEL</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/Tourproject/"
+                    >https://vaibhavupadhyayy.github.io/Tourproject/</a
+                  >
+                </li>
+                <li>
+                  <span>ADD NOTES WEBSITE</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/notestaking/"
+                    >https://vaibhavupadhyayy.github.io/notestaking/</a
+                  >
+                </li>
+
+                <li>
+                  <span>SMART CALCULATOR</span><br /><br /><a
+                    class="linke"
+                    href="https://vaibhavupadhyayy.github.io/calculator/"
+                    >https://vaibhavupadhyayy.github.io/calculator/</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- intership data  -->
+            <div class="tab-contents" id="internship">
+              <ul>
+                <li>
+                  <span>FULLSTACK DEVELOPMENT</span><br /><br />
+                  Five Months Fullstack Developmwnt Training Program With
+                  "Timespro"
+                </li>
+                <li>
+                  <span>WEB DEVELOPMENT</span><br /><br />Three Months Web
+                  Development Internship At Grip At Sparks Foundation Through
+                  "Internshala"
+                </li>
+                <li>
+                  <span>V0CATIONAL TRAINING</span><br /><br />Two Months
+                  Vocational Training In "Parichha Thermal Power Plant Jhansi"
+                  (U.P)
+                </li>
+                <li>
+                  <span>PERSONALITY DEVELOPMENT</span><br /><br />Three Months
+                  Personality Development Course From "Vivekanand Training
+                  Academy"
+                </li>
+                <li>
+                  <span>VIDEO EDITING</span><br /><br />15 - Days Successfully
+                  Completed Video Editing Basic Course Through "Greatlearning"
+                </li>
+                <li>
+                  <span>CAMPUS AMBASSADOR</span><br /><br />One Months Campus
+                  Ambassador Internship At International Model United Nations
+                  Through "Internshala"
+                </li>
+                <li>
+                  <span>ROBOTICS AND AUTOMATION</span><br /><br />One Week
+                  Workshop Organized Under The SRGI Jhansi On "Robotics And
+                  Automation"
+                </li>
+              </ul>
+            </div>
+
+            <!-- achivement data  -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- _______________________________________________services page _______________________________________________  -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h2 class="service">WEB DEVELOPMENT</h2>
+            <p>
+              We provide you the service of website development in which we
+              design both the front end and back end and it is designed in a
+              modern way. We also design the website according to you, as you
+              want to make it, we build it. And it is provided to you at a very
+              low price.If you would like more information, you can view the
+              project by going to our Projects section. There you will get the
+              idea of ​​our service If you want information about this then
+              contact on the numbers given below
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>APP DEVELOPMENT</h2>
+            <p>
+              Another service is provided to you from my side, which is named
+              android.app development and it is progressing very fast in today's
+              time, in view of this, we have decided that we also provide you
+              the service of developing android.app. We will develop it
+              according to you and give it as you want to be made. We make
+              modern and beautiful android app for more information contact on
+              below numbers , You can contact us on the below phone number.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>PHOTO EDITING</h2>
+            <p>
+              Photo editing and video editing service is provided by us in good
+              price. In video editing, the service of creating like reels, slow
+              motion, promotion videos and many other types of new videos is
+              provided. Photo editing and video editing is done by the top level
+              application, according to you, whatever photo editing you want to
+              do, video editing is also done.contact by below numbers
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+
+
+
+
+    <!-- -----------------portfolio-------------------------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="photo.jpg" alt="" />
+            <div class="layer">
+              <h3>Coffee Shop Website</h3>
+              <p class="port-text">
+                This is a coffee shop website which I have created with the help
+                of HTML CSS and JavaScript. It has various coffee details and
+                has the function of customer review and a map is
+                also inbuilt in it.you can also delete the notes. If you want to
+                see it click on the link below
+              </p>
+              <br />
+              <a
+                class="portfolio-link"
+                href="https://vaibhavupadhyayy.github.io/Coffeestore/"
+                >https://vaibhavupadhyayy.github.io/Coffeestore/</a
+              >
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="photot.jpg" alt="" />
+            <div class="layer">
+              <h3>Grocery Website</h3>
+              <p class="port-text">
+                It is a full responsive grocery website. I have created this
+                with the help of HTML CSS and Javascript and in this! There are
+                many grocery products and their price is also given and the
+                category of the product is also available in it.
+              </p>
+              <br />
+              <a
+                class="portfolio-link"
+                href="https://vaibhavupadhyayy.github.io/grocery-website/"
+                >https://vaibhavupadhyayy.github.io/grocery-website/</a
+              >
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="photot.jpg" alt="" />
+            <div class="layer">
+              <h3>Ecommerce Website</h3>
+              <p class="port-text">
+                This is my fully responsive Ecommerce website. I have created
+                this with the help of HTML CSS and Javascript and in this! There
+                are many products and their price is also given and the category
+                of the product is also available in it.
+              </p>
+              <br />
+              <a
+                class="portfolio-link"
+                href="https://vaibhavupadhyayy.github.io/Ecommercewebsite/"
+                >https://vaibhavupadhyayy.github.io/Ecommercewebsite/</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- second card  -->
+
+    <div id="portfolio">
+      <div class="container">
+        <div class="work-list">
+          <div class="work">
+            <img src="photo.jpg" alt="" />
+            <div class="layer">
+              <h3>Tour Website</h3>
+              <p class="port-text">
+                This is a tour travel website made with the help of HTML and
+                CSS. I have given the details of the travel trip and its price
+                in it. This beautiful website is fully responsive. click here
+                give link below
+              </p>
+              <br />
+              <a
+                class="portfolio-link"
+                href="https://vaibhavupadhyayy.github.io/Tourproject/"
+                >https://vaibhavupadhyayy.github.io/Tourproject/</a
+              >
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="" alt="" />
+            <div class="layer">
+              <h3>Book Store Website</h3>
+              <p class="port-text">
+                It is My book store website which I made with the help of HTML
+                CSS Javascript, in this I! Set time out function is used with
+                loading image and details of books are also added in this
+                website with customer review and location
+              </p>
+              <br />
+              <a
+                class="portfolio-link"
+                href="https://vaibhavupadhyayy.github.io/bookstore/"
+                >https://vaibhavupadhyayy.github.io/bookstore/</a
+              >
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="photo.jpg" alt="" />
+            <div class="layer">
+              <h3>News Api Website</h3>
+              <p class="port-text">
+                This is my news application website which I have created with
+                the help of HTML CSS & Javascript. In this I have used Fatch
+                Api. If you want to see it then click on the link given below If
+                you would like to see it click on the link below.
+              </p>
+              <br />
+              <a
+                class="portfolio-link"
+                href="https://vaibhavupadhyayy.github.io/newsapi/"
+                >https://vaibhavupadhyayy.github.io/newsapi/</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+       
+        <a href="#about" class="btn"> About</a>
+      </div>
+    </div>
+
+    <!----------------------------------------conatct ----------------------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-brands fa-whatsapp"></i>Whatsappp : 7991284491</p>
+            <p><i class="fa-solid fa-phone"></i>Mobile No : 8887706320</p>
+            
+            <p>
+              <i class="fa-solid fa-envelope"></i>vaibhavupadhyay306@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i>vaibhavupadhyay301@gmail.com
+            </p>
+
+            <div class="social-icons">
+              <a href="https://www.hackerrank.com/vaibhavupadhyay5"
+                ><i class="fa-brands fa-hackerrank"></i
+              ></a>
+              <a href="https://github.com/vaibhavupadhyayy"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+
+              <a
+                href="https://instagram.com/vaibhav.upadhyay20?igshid=YmMyMTA2M2Y="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/vaibhav-upadhyay-03b1b1179/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/vaibhav.upadhyay.52056223"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <!-- cv button  -->
+            <!-- using to download to download cv  -->
+
+            <a
+              href="Full Stack Developer Vaibhav's Resume.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <h1 class="sub-title">Enquiry</h1>
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <input
+                type="text"
+                name="Contact no"
+                placeholder="Enter Your Contact No"
+                required
+              />
+              <input
+                type="text"
+                name="Message"
+                placeholder="Enter Your Address"
+                required
+              />
+              <input
+                type="text"
+                name="Message"
+                placeholder="Enter Your Messsge"
+                required
+              />
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="center">Find Me</h3>
+    <hr />
+    <div class="mapp">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14406.793208115687!2d78.54059922828552!3d25.48174774023213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39777146e1fe5711%3A0x646db1e5fd712d67!2sPal%20Colony%2C%20Jhansi%2C%20Uttar%20Pradesh%20284003!5e0!3m2!1sen!2sin!4v1667846145116!5m2!1sen!2sin"
+        width="90%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <hr />
+    <a href="#" class="btn"> Home</a>
+
+    <!-- ----------------------------------------------------footer ---------------------------------------------- -->
+
+    <div class="copyright">
+      <p>
+        <i class="fa-solid fa-copyright"></i>Copyright || Vaibhav Upadhyay
+        Portfolio 2022-23 ||
+      </p>
+      <div class="foot">
+        <a href="https://www.hackerrank.com/vaibhavupadhyay5"
+          ><i class="fa-brands fa-hackerrank"></i
+        ></a>
+        <a href="https://github.com/vaibhavupadhyayy"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://instagram.com/vaibhav.upadhyay20?igshid=YmMyMTA2M2Y="
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/vaibhav-upadhyay-03b1b1179/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.facebook.com/vaibhav.upadhyay.52056223"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- javascript coadig -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbx989d5oUTZS6ELSSBGNfMel94vyWlAYcSFgr9I0dUMoIqeMIavRsDQvEDw-d3uKmRnqA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message send successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 4000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
