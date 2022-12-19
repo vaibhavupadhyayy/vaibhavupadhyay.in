@@ -53,7 +53,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #edf5e1;
+/*   background: #edf5e1; */
+   background:#FFFFFF;
   color: black;
 }
 
@@ -504,7 +505,8 @@ nav .fas {
     scroll-behavior: smooth;
   }
   body {
-    background: #edf5e1;
+/*     background: #edf5e1; */
+     background:#FFFFFF;
     color: black;
   }
 
