@@ -475,8 +475,10 @@ margin-top: 15px;
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: #edf5e1;
-  border-radius: 10px;
+/*   background: #edf5e1; */
+  background:#FFFFFF;
+   border: 1px solid black;
+  border-radius: 5px;
   margin-top: 10px;
   font-size: 20px;
   color: black;
